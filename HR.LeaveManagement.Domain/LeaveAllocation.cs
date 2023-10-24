@@ -13,4 +13,6 @@ public class LeaveAllocation : BaseEntity
     public string Name { get; set; } = string.Empty;
 
     public int Period { get; set; }
+
+    public string EmployeeId { get; set; }
 }
